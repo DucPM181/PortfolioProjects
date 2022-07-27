@@ -67,7 +67,7 @@ SELECT
 		WHEN Score = 4 THEN 'Gold'
 		WHEN Score = 3 THEN 'Silver'
 		WHEN Score < 3 THEN 'Normal'
-		END) AS Customer_Segment
+	END) AS Customer_Segment
 FROM
 (
 	SELECT *
